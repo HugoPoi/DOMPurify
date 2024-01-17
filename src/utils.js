@@ -176,7 +176,7 @@ function lookupGetter(object, prop) {
   }
 
   function fallbackValue(element) {
-    console.warn('fallback value for', element);
+    console.warn('fallback value for', element.innerHTML);
     return null;
   }
 
